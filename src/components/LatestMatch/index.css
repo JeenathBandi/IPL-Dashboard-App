@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.latest-match-container {
+  display: flex;
+  flex-direction: column;
+}
+.latest-matches-heading {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  align-self: flex-start;
+  font-size: 10px;
+}
+.latest-match-item {
+  display: flex;
+  background-color: #1e293b;
+  width: 90vw;
+  border-radius: 5px;
+  padding: 15px;
+}
+.first-container {
+  display: flex;
+  flex-direction: column;
+}
+.competing-team {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+.date {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-weight: none;
+}

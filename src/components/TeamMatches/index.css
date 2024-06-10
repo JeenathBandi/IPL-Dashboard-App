@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.team-matches-container {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  padding: 30px;
+}
+.team-banner-img {
+  width: 90vw;
+  height: 30vh;
+  border-radius: 5px;
+}
