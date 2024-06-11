@@ -14,11 +14,15 @@
   background-color: #1e293b;
   width: 90vw;
   border-radius: 5px;
-  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  height: 60vh;
 }
 .first-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 .competing-team {
   color: #ffffff;
@@ -29,4 +33,32 @@
   color: #ffffff;
   font-family: 'Bree Serif';
   font-weight: none;
+}
+.venue {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-weight: 100;
+}
+.middle-container {
+}
+.competing-img {
+  height: 30vh;
+}
+.last-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.heads {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-weight: 100;
+  font-size: 18px;
+}
+.heads-content {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-weight: 100;
+  font-size: 14px;
+  margin: 0px;
 }
