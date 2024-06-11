@@ -1,1 +1,20 @@
 /* Write your CSS here */
+.match-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #1e293b;
+  margin: 10px;
+  width: 20vw;
+}
+.match-card-img {
+  height: 15vh;
+}
+.competing-team-name {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  text-align: center;
+}
